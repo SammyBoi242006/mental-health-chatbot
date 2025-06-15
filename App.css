@@ -1,0 +1,31 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fefefe;
+}
+
+input, button {
+  outline: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  opacity: 0.9;
+  transition: 0.2s;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #c1c1c1;
+  border-radius: 3px;
+}
+.chat-actions {
+  display: none;
+}
+
+.chat-item:hover .chat-actions {
+  display: flex;
+}
