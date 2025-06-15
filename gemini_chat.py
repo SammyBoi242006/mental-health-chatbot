@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "AIzaSyAbayUoKRYotLtjcv_uzOamZz5z-HAzUMY"
+API_KEY = Insert your key 
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={API_KEY}"
 
 def get_gemini_response(user_input):
